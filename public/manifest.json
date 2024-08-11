@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini terms and condition reader",
+    "description": "read any webpage terms and condition using google gemini AI",
+    "version": "1.0.0",
+    "icons": {
+        "32": "gemini-tc.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "gemini-tc.png"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
